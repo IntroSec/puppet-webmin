@@ -8,6 +8,9 @@
             "operatingsystemrelease": [ "16.04", "14.04", "12.04" ]
         }
        ],
+  "dependencies": [
+        { "name": "puppetlabs/apt"}
+    ],
   "project_page": "https://github.com/hyper3xpl0iter/puppet-webmin",
   "source": "https://github.com/hyper3xpl0iter/puppet-webmin",
   "summary": "Webmin Installation",
