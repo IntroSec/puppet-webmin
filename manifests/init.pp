@@ -10,11 +10,9 @@ class webmin (
   $ssl_pkg      = $webmin::params::ssl_pkg,
   $bind_ip      = $webmin::params::bind_ip,
   ) inherits webmin::params {
-  if ( $osfamily =~ /(RedHat|Debian)/ )  {
+  if ( $osfamily =~ /(RedHat|Debian|Ubuntu)/ )  {
     class{'webmin::repo': }
     ->
     class{'webmin::webmin_pkg': }
-    ->
-    class{'webmin::usermin_pkg': }
   } else {}
 }

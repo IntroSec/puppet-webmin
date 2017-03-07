@@ -1,0 +1,19 @@
+{
+  "author": "Andre Mattie",
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "\u003e\u003d1.4.0"
+    }
+  ],
+  "description": "Module to install Webmin and Usermin",
+  "license": "",
+  "name": "hyper3xpl0iter-webmin",
+  "operatingsystem_support": [],
+  "project_page": "https://github.com/hyper3xpl0iter/puppet-webmin",
+  "requirements": [],
+  "source": "https://github.com/hyper3xpl0iter/puppet-webmin",
+  "summary": "Webmin web-based interface for system administration",
+  "tags": [],
+  "version": "1.0.1"
+}
