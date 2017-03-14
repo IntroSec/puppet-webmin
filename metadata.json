@@ -15,5 +15,5 @@
   "source": "https://github.com/hyper3xpl0iter/puppet-webmin",
   "summary": "Webmin Installation",
   "tags": ["introsec","webmin"],
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
